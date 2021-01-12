@@ -9,7 +9,7 @@ export default class Zone {
     };
     this.renderOutline = (dropZone) => {
       let dropZoneOutline = scene.add.graphics();
-      dropZoneOutline.lineStyle(4, 0x90ee90);
+      dropZoneOutline.lineStyle(4, 0x00ffff);
       dropZoneOutline.strokeRect(
         dropZone.x - dropZone.input.hitArea.width / 2,
         dropZone.y - dropZone.input.hitArea.height / 2,
